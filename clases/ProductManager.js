@@ -14,7 +14,7 @@ class ProductManager {
       await fs.promises.writeFile(path, JSON.stringify([]));
       console.log(`Archivo \'${path}\' creado con exito!`);
     } catch (error) {
-      return console.log(`No se pudo crear el archivo con nombre: ${path}`);
+      return console.log(`No se pudo crear el archivo : ${path}`);
     }
   }
 
